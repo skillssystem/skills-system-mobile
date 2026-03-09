@@ -1,0 +1,27 @@
+go to android folder and create key.properties and local.properties file
+
+put these in the files 
+
+key.properties
+
+Copy from below
+--------
+storePassword=Skills123
+keyPassword=Skills123
+keyAlias=SkillsSystem
+storeFile=system_skills-main/keystore/SkillsSystemKeyStore.jks
+---------
+Copy till here
+
+
+local.properties
+
+Copy from below
+--------
+sdk.dir=$HOME/Library/Android/sdk
+flutter.sdk=$HOME/develop/flutter  (your flutter sdk path)
+flutter.buildMode=release
+flutter.versionName=1.0.5
+flutter.versionCode=19
+---------
+Copy till here
